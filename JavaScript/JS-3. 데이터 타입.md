@@ -1,4 +1,4 @@
-## 자바스크립트의 데이터 타입은 7개이며, **원시 타입(primitive data type)**과 **객체 타입(object/reference type)**으로 구분할 수 있다.
+## 자바스크립트의 데이터 타입은 7개이며, **원시 타입**(primitive data type)과 **객체 타입**(object/reference type)으로 구분할 수 있다.
 
 ### **원시 타입(변경이 불가능 한 값이며, 값에 의한 전달)**
 
