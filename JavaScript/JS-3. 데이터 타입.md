@@ -51,7 +51,7 @@ console.log(typeof a === null); // false
 console.log(a === null);        // true
 ~~~
 
-이는 자바스크립트 설계오류이며, null 타입 확인 시 **일치연산자(===)**를 사용해야한다.
+이는 자바스크립트 설계오류이며, null 타입 확인 시 **일치연산자**(===)를 사용해야한다.
 
 ### **undefined**
 
@@ -65,7 +65,7 @@ var a;
 
 ### **String**
 
-자바스크립트의 문자열은 원시 타입이며 **변경 불가능(immutable)**하다.
+자바스크립트의 문자열은 원시 타입이며 **변경 불가능**(immutable)하다.
 
 ~~~javascript
 var str = 'abc';
