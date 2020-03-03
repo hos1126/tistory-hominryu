@@ -1,6 +1,6 @@
-ÀÚ¹Ù½ºÅ©¸³Æ®¿¡¼­ **ÇÔ¼ö¸¦ Á¤ÀÇÇÏ´Â ¹æ¹ý**Àº Å©°Ô **3°¡Áö(ÇÔ¼ö¼±¾ð¹®, ÇÔ¼ö Ç¥Çö½Ä, »ý¼ºÀÚÇÔ¼ö)**·Î ³ª´­ ¼ö ÀÖ´Ù.
+ìžë°”ìŠ¤í¬ë¦½íŠ¸ì—ì„œ **í•¨ìˆ˜ë¥¼ ì •ì˜í•˜ëŠ” ë°©ë²•**ì€ í¬ê²Œ **3ê°€ì§€(í•¨ìˆ˜ì„ ì–¸ë¬¸, í•¨ìˆ˜ í‘œí˜„ì‹, ìƒì„±ìží•¨ìˆ˜)**ë¡œ ë‚˜ëˆŒ ìˆ˜ ìžˆë‹¤.
 
-### **ÇÔ¼ö ¼±¾ð¹®**
+### **í•¨ìˆ˜ ì„ ì–¸ë¬¸**
 
 ~~~javascript
 function makeFunc(num) {
@@ -8,11 +8,11 @@ function makeFunc(num) {
 }
 ~~~
 
-### **ÇÔ¼ö Ç¥Çö½Ä**
+### **í•¨ìˆ˜ í‘œí˜„ì‹**
 
-ÇÔ¼ö ¸®ÅÍ·² ¹æ½ÄÀ¸·Î **ÇÔ¼ö¸¦ Á¤ÀÇ**ÇÏ°í **º¯¼ö¿¡ ÇÒ´ç**ÇÒ ¼ö ÀÖ´Âµ¥ ÀÌ·¯ÇÑ ¹æ½ÄÀ» **ÇÔ¼ö Ç¥Çö½Ä**ÀÌ¶ó ÇÑ´Ù.
+í•¨ìˆ˜ ë¦¬í„°ëŸ´ ë°©ì‹ìœ¼ë¡œ **í•¨ìˆ˜ë¥¼ ì •ì˜**í•˜ê³  **ë³€ìˆ˜ì— í• ë‹¹**í•  ìˆ˜ ìžˆëŠ”ë° ì´ëŸ¬í•œ ë°©ì‹ì„ **í•¨ìˆ˜ í‘œí˜„ì‹**ì´ë¼ í•œë‹¤.
 
-ÇÔ¼ö ¼±¾ð¹®À¸·Î Á¤ÀÇÇÑ ÇÔ¼ö makeFunc()¸¦ ÇÔ¼ö Ç¥Çö½ÄÀ¸·Î Á¤ÀÇÇÏ¸é ¾Æ·¡¿Í °°´Ù.
+í•¨ìˆ˜ ì„ ì–¸ë¬¸ìœ¼ë¡œ ì •ì˜í•œ í•¨ìˆ˜ makeFunc()ë¥¼ í•¨ìˆ˜ í‘œí˜„ì‹ìœ¼ë¡œ ì •ì˜í•˜ë©´ ì•„ëž˜ì™€ ê°™ë‹¤.
 
 ~~~javascript
 var makeFunc = function(num) {
@@ -22,25 +22,25 @@ var makeFunc = function(num) {
 
 ---
 
-## **ÀÏ±Þ °´Ã¼**
+## **ì¼ê¸‰ ê°ì²´**
 
-ÀÚ¹Ù½ºÅ©¸³Æ®ÀÇ ÇÔ¼ö´Â **ÀÏ±Þ °´Ã¼**ÀÌ¹Ç·Î ¾Æ·¡¿Í °°Àº Æ¯Â¡ÀÌ ÀÖ´Ù.
+ìžë°”ìŠ¤í¬ë¦½íŠ¸ì˜ í•¨ìˆ˜ëŠ” **ì¼ê¸‰ ê°ì²´**ì´ë¯€ë¡œ ì•„ëž˜ì™€ ê°™ì€ íŠ¹ì§•ì´ ìžˆë‹¤.
 
-**\- ¹«¸íÀÇ ¸®ÅÍ·²**·Î Ç¥ÇöÀÌ °¡´ÉÇÏ´Ù.
+**\- ë¬´ëª…ì˜ ë¦¬í„°ëŸ´**ë¡œ í‘œí˜„ì´ ê°€ëŠ¥í•˜ë‹¤.
 
-**\- º¯¼ö**³ª **ÀÚ·á ±¸Á¶(°´Ã¼, ¹è¿­¡¦)**¿¡ **ÀúÀå**ÇÒ ¼ö ÀÖ´Ù.
+**\- ë³€ìˆ˜**ë‚˜ **ìžë£Œ êµ¬ì¡°**(ê°ì²´, ë°°ì—´â€¦)ì— **ì €ìž¥**í•  ìˆ˜ ìžˆë‹¤.
 
-**\- ÇÔ¼öÀÇ ÆÄ¶ó¹ÌÅÍ**·Î Àü´ÞÇÒ ¼ö ÀÖ´Ù.
+**\- í•¨ìˆ˜ì˜ íŒŒë¼ë¯¸í„°**ë¡œ ì „ë‹¬í•  ìˆ˜ ìžˆë‹¤.
 
-**\- ¹ÝÈ¯°ª**(return value)À¸·Î »ç¿ëÇÒ ¼ö ÀÖ´Ù.
+**\- ë°˜í™˜ê°’**(return value)ìœ¼ë¡œ ì‚¬ìš©í•  ìˆ˜ ìžˆë‹¤.
 
 ~~~javascript
-//¹«¸íÀÇ ¸®ÅÍ·²·Î Ç¥ÇöÀÌ °¡´ÉÇÏ´Ù.
+//ë¬´ëª…ì˜ ë¦¬í„°ëŸ´ë¡œ í‘œí˜„ì´ ê°€ëŠ¥í•˜ë‹¤.
 var makeFunc = function(num) {
   return num * num;
 };
 
-//º¯¼ö³ª ÀÚ·á ±¸Á¶(°´Ã¼, ¹è¿­¡¦)¿¡ ÀúÀåÇÒ ¼ö ÀÖ´Ù.
+//ë³€ìˆ˜ë‚˜ ìžë£Œ êµ¬ì¡°(ê°ì²´, ë°°ì—´â€¦)ì— ì €ìž¥í•  ìˆ˜ ìžˆë‹¤.
 var a = {
   name: "makefunc",
   makeFunc
@@ -52,8 +52,8 @@ function c() {
   return makeFunc;
 }
 console.log(a.makeFunc(3)); // 9
-//ÇÔ¼öÀÇ ÆÄ¶ó¹ÌÅÍ·Î Àü´ÞÇÒ ¼ö ÀÖ´Ù.
-console.log(b(makeFunc), "¸Å°³º¯¼ö »ç¿ë"); // 9 ¸Å°³º¯¼ö »ç¿ë
-//¹ÝÈ¯°ª(return value)À¸·Î »ç¿ëÇÒ ¼ö ÀÖ´Ù.
-console.log(c()(3), "return »ç¿ë"); // 9 return »ç¿ë
+//í•¨ìˆ˜ì˜ íŒŒë¼ë¯¸í„°ë¡œ ì „ë‹¬í•  ìˆ˜ ìžˆë‹¤.
+console.log(b(makeFunc), "ë§¤ê°œë³€ìˆ˜ ì‚¬ìš©"); // 9 ë§¤ê°œë³€ìˆ˜ ì‚¬ìš©
+//ë°˜í™˜ê°’(return value)ìœ¼ë¡œ ì‚¬ìš©í•  ìˆ˜ ìžˆë‹¤.
+console.log(c()(3), "return ì‚¬ìš©"); // 9 return ì‚¬ìš©
 ~~~
