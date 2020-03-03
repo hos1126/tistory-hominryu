@@ -2,7 +2,7 @@
 
 ### **배열 구조분해할당**
 
-```
+```javascript
 const arr = [1, 2, 3];
 const [one, two, three] = arr;
 console.log(one, two, three); // 1 2 3
@@ -10,7 +10,7 @@ console.log(one, two, three); // 1 2 3
 
 배열 디스트럭처링을 위해서는 할당 연산자 왼쪽에 **배열 형태의 변수 ****리스트**가 필요하다.
 
-```
+```javascript
 const arr = [1, 2, 3];
 const [one, two, three] = arr;
 console.log(one, two, three); // 1 2 3
@@ -44,7 +44,7 @@ console.log(x, y); // 1 [ 2, 3 ]
 
 할당 기준은 **프로퍼티 이름**(키)이다. 순서는 의미가 없다.
 
-```
+```javascript
 var obj = {
     firstName: 'Ungmo',
     lastName: 'Lee'
@@ -58,11 +58,11 @@ console.log(p1, p2); // 'a' 'b'
 console.log({ prop1: p1, prop2: p2 }); // { prop1: 'a', prop2: 'b' }
 ```
 
-객체에서 **프로퍼티 이름(키)**으로 **필요한 프로퍼티 값만**을 추출할 수 있다.
+객체에서 **프로퍼티 이름**(key)으로 **필요한 프로퍼티 값만**을 추출할 수 있다.
 
 다음과 같이 **콜백함수의 인자**로 사용할 경우 자주 활용된다.
 
-```
+```javascript
 const todos = [
     { id: 1, content: 'HTML', completed: true },
     { id: 2, content: 'CSS', completed: false },
@@ -80,7 +80,7 @@ console.log(completedTodos2); // [ { id: 1, content: 'HTML', completed: true } ]
 
 중첩된 객체를 구조분해할당 할 경우
 
-```
+```javascript
 const person = {
   name: 'Kim',
   address: {

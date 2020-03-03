@@ -8,7 +8,7 @@
 
 이러한 이유 때문에 콜백안에 콜백을 사용할 수 밖에 없다.
 
-**콜백헬(call back hell)**이 발생하는 것이다.
+**콜백헬**(call back hell)이 발생하는 것이다.
 
 ~~~javascript
 let resultA, resultB, resultC;

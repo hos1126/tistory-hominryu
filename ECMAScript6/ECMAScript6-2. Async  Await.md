@@ -15,7 +15,7 @@ asyncFunc()
 
 ### **Await**
 
-await문은 **async**함수의 실행을 중단시키고, Promise가 **fulfill**되거나 **reject**되기를 기다리고, 다시 async함수를 실행시킵니다. 이때 await문의 값은 **Promise** **에서 fulfill(resolve)된 값**이 된다.
+await문은 **async**함수의 실행을 중단시키고, Promise가 **fulfill**되거나 **reject**되기를 기다리고, 다시 async함수를 실행시킵니다. 이때 await문의 값은 **Promise**에서 **fulfill(resolve)된 값**이 된다.
 
 await은 **async함수 내부에서만** 동작한다.
 

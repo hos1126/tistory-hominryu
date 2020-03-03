@@ -23,7 +23,7 @@ console.log(false || 'DEF') // DEF
 
 첫번째항이 false일 경우, **'DEF'가 TRUE인지 확인해야** 전체가 TRUE인지 확인 가능하므로,?전체를 판단하는 것은 'DEF'이다.
 
-**undefined, null, 0, -0, NaN, (빈문자열)**은 제어문의 조건식에서 **false**로 평가되는 값들이다.
+**undefined, null, 0, -0, (빈문자열), NaN**은 제어문의 조건식에서 **false**로 평가되는 값들이다.
 
 ~~~javascript
 function evalString(str) {
