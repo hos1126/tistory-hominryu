@@ -1,16 +1,16 @@
-## µð½ºÆ®·°Ã³¸µ(Destructuring)Àº ±¸Á¶È­µÈ **¹è¿­ ¶Ç´Â °´Ã¼**¸¦ Destructuring(ºñ±¸Á¶È­, ÆÄ±«)ÇÏ¿© **°³º°ÀûÀÎ º¯¼ö**¿¡ ÇÒ´çÇÏ´Â °ÍÀÌ´Ù.
+## ë””ìŠ¤íŠ¸ëŸ­ì²˜ë§(Destructuring)ì€ êµ¬ì¡°í™”ëœ **ë°°ì—´ ë˜ëŠ” ê°ì²´**ë¥¼ Destructuring(ë¹„êµ¬ì¡°í™”, íŒŒê´´)í•˜ì—¬ **ê°œë³„ì ì¸ ë³€ìˆ˜**ì— í• ë‹¹í•˜ëŠ” ê²ƒì´ë‹¤.
 
-### **¹è¿­ ±¸Á¶ºÐÇØÇÒ´ç**
+### **ë°°ì—´ êµ¬ì¡°ë¶„í•´í• ë‹¹**
 
-~~~javascript
+```
 const arr = [1, 2, 3];
 const [one, two, three] = arr;
 console.log(one, two, three); // 1 2 3
-~~~
+```
 
-¹è¿­ µð½ºÆ®·°Ã³¸µÀ» À§ÇØ¼­´Â ÇÒ´ç ¿¬»êÀÚ ¿ÞÂÊ¿¡ **¹è¿­ ÇüÅÂÀÇ º¯¼ö¸®½ºÆ®**°¡ ÇÊ¿äÇÏ´Ù.
+ë°°ì—´ ë””ìŠ¤íŠ¸ëŸ­ì²˜ë§ì„ ìœ„í•´ì„œëŠ” í• ë‹¹ ì—°ì‚°ìž ì™¼ìª½ì— **ë°°ì—´ í˜•íƒœì˜ ë³€ìˆ˜ ****ë¦¬ìŠ¤íŠ¸**ê°€ í•„ìš”í•˜ë‹¤.
 
-~~~javascript
+```
 const arr = [1, 2, 3];
 const [one, two, three] = arr;
 console.log(one, two, three); // 1 2 3
@@ -35,16 +35,16 @@ console.log(x, y, z); // 1 2 3
 [x, y = 10, z = 3] = [1, 2];
 console.log(x, y, z); // 1 2 3
 
-// spread ¹®¹ý
+// spread ë¬¸ë²•
 [x, ...y] = [1, 2, 3];
 console.log(x, y); // 1 [ 2, 3 ]
-~~~
+```
 
-### **°´Ã¼ ±¸Á¶ºÐÇØÇÒ´ç**
+### **ê°ì²´ êµ¬ì¡°ë¶„í•´í• ë‹¹**
 
-ÇÒ´ç ±âÁØÀº **ÇÁ·ÎÆÛÆ¼ ÀÌ¸§**(Å°)ÀÌ´Ù. ¼ø¼­´Â ÀÇ¹Ì°¡ ¾ø´Ù.
+í• ë‹¹ ê¸°ì¤€ì€ **í”„ë¡œí¼í‹° ì´ë¦„**(í‚¤)ì´ë‹¤. ìˆœì„œëŠ” ì˜ë¯¸ê°€ ì—†ë‹¤.
 
-~~~javascript
+```
 var obj = {
     firstName: 'Ungmo',
     lastName: 'Lee'
@@ -52,17 +52,17 @@ var obj = {
 var {firstName, lastName} = obj;
 console.log(firstName, lastName);
 
-//º¯¼ö¸íÀ» ¼öÁ¤ÇÒ ¼ö ÀÖÀ½
+//ë³€ìˆ˜ëª…ì„ ìˆ˜ì •í•  ìˆ˜ ìžˆìŒ
 const { prop1: p1, prop2: p2 } = { prop1: 'a', prop2: 'b' };
 console.log(p1, p2); // 'a' 'b'
 console.log({ prop1: p1, prop2: p2 }); // { prop1: 'a', prop2: 'b' }
-~~~
+```
 
-°´Ã¼¿¡¼­ **ÇÁ·ÎÆÛÆ¼ ÀÌ¸§(Å°)**À¸·Î **ÇÊ¿äÇÑ ÇÁ·ÎÆÛÆ¼ °ª¸¸**À» ÃßÃâÇÒ ¼ö ÀÖ´Ù.
+ê°ì²´ì—ì„œ **í”„ë¡œí¼í‹° ì´ë¦„(í‚¤)**ìœ¼ë¡œ **í•„ìš”í•œ í”„ë¡œí¼í‹° ê°’ë§Œ**ì„ ì¶”ì¶œí•  ìˆ˜ ìžˆë‹¤.
 
-´ÙÀ½°ú °°ÀÌ **ÄÝ¹éÇÔ¼öÀÇ ÀÎÀÚ**·Î »ç¿ëÇÒ °æ¿ì ÀÚÁÖ È°¿ëµÈ´Ù.
+ë‹¤ìŒê³¼ ê°™ì´ **ì½œë°±í•¨ìˆ˜ì˜ ì¸ìž**ë¡œ ì‚¬ìš©í•  ê²½ìš° ìžì£¼ í™œìš©ëœë‹¤.
 
-~~~javascript
+```
 const todos = [
     { id: 1, content: 'HTML', completed: true },
     { id: 2, content: 'CSS', completed: false },
@@ -72,15 +72,15 @@ const todos = [
 const completedTodos1 = todos.filter(todo => todo.completed);
 // todo => ({completed})
 // const {complete} = todo;
-// todo´Â todosÀÇ ¿ä¼ÒÀÎ °´Ã¼
+// todoëŠ” todosì˜ ìš”ì†Œì¸ ê°ì²´
 const completedTodos2 = todos.filter(({ completed }) => completed);
 console.log(completedTodos1); // [ { id: 1, content: 'HTML', completed: true } ]
 console.log(completedTodos2); // [ { id: 1, content: 'HTML', completed: true } ]
-~~~
+```
 
-ÁßÃ¸µÈ °´Ã¼¸¦ ±¸Á¶ºÐÇØÇÒ´ç ÇÒ °æ¿ì
+ì¤‘ì²©ëœ ê°ì²´ë¥¼ êµ¬ì¡°ë¶„í•´í• ë‹¹ í•  ê²½ìš°
 
-~~~javascript
+```
 const person = {
   name: 'Kim',
   address: {
@@ -91,6 +91,6 @@ const person = {
 
 const { address: { city } } = person;
 console.log(city); // Busan
-~~~
+```
 
 > [https://poiemaweb.com/es6-destructuring](https://poiemaweb.com/es6-destructuring)
