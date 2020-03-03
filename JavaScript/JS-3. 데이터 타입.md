@@ -86,6 +86,6 @@ true와 false로 구분되며, 비어있는 문자열과 null,?undefined, 숫자
 
 ### **객체 타입(참조에 의한 전달)**
 
-원시 타입(Primitives)을 제외한 나머지 값들(배열, 함수, 정규표현식 등)은 모두 객체이다. 또한 객체는**pass-by-reference(참조에 의한 전달)**방식으로 전달된다.
+원시 타입(Primitives)을 제외한 나머지 값들(배열, 함수, 정규표현식 등)은 모두 객체이다. 또한 객체는**pass-by-reference**(참조에 의한 전달)방식으로 전달된다.
 
 > [https://poiemaweb.com/js-data-type-variable](https://poiemaweb.com/js-data-type-variable)
